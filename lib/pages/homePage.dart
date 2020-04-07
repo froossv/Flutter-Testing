@@ -36,6 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         TextFormField(
                           obscureText: false,
                           style: style,
+                          validator: FieldValidator.validateEmail,
                           decoration: InputDecoration(
                             contentPadding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
                             labelText: "Email",
@@ -45,7 +46,8 @@ class _MyHomePageState extends State<MyHomePage> {
                         Padding(padding: EdgeInsets.symmetric(vertical: 10.0)),
                         TextFormField(
                           obscureText: showPassword,
-                          style: style,                        
+                          style: style,
+                          validator: FieldValidator.validatePassword,
                           decoration: InputDecoration(
                             contentPadding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
                             labelText: "Password",
