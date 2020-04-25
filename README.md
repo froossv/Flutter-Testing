@@ -20,3 +20,9 @@ samples, guidance on mobile development, and a full API reference.
 To run Unit Tests run  
   ```flutter run```  
 In the root folder.
+
+## Lists of Tests Done
+
+Unit Testing : 
+- Textfields
+- Post Requests using Mockito
